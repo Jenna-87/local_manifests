@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
   <remote  name="Galaxy-MSM8916"
            fetch="https://github.com"
            review="review.msm8916.com"
@@ -91,7 +94,7 @@
   <remove-project name="vendor_qcom_opensource_dataservices"/>
   <project path="vendor/qcom/opensource/dataservices" name="Galaxy-MSM8916/android_vendor_qcom_opensource_dataservices" remote="github" revision="lineage-15.1" />
 
-  <project path="packages/apps/OTAUpdates" name="jenslody/OTAUpdates" remote="github" revision="oreo.1" />
+  <project path="packages/apps/OTAUpdates" name="jenslody/OTAUpdates" remote="gitlab" revision="oreo.1" />
 
  <!-- TWRP -->
 <!--

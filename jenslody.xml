@@ -65,6 +65,9 @@
   <remove-project name="vendor_bootleggers" />
   <project path="vendor/bootleggers" name="jenslody/vendor_bootleggers.git" remote="gitlab" revision="oreo.1" />
 
+  <remove-project name="packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="jenslody/packages_apps_Settings-1" remote="gitlab" revision="oreo.1" groups="pdk-fs" />
+
   <!-- Qcom Common -->
 <!--
   <remove-project name="device_qcom_common" />
@@ -77,9 +80,6 @@
 
   <remove-project name="system_sepolicy" />
   <project path="system/sepolicy" name="jenslody/system_sepolicy" groups="pdk" remote="gitlab" revision="8.1" />
-
-  <remove-project name="packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="jenslody/packages_apps_Settings" remote="gitlab" revision="8.1" groups="pdk-fs" />
 
  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="github" revision="lineage-15.1" />
 -->

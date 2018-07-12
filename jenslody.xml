@@ -66,7 +66,7 @@
   <project path="vendor/bootleggers" name="jenslody/vendor_bootleggers.git" remote="gitlab" revision="oreo.1" />
 
   <remove-project name="packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="jenslody/packages_apps_Settings-1" remote="gitlab" revision="oreo.1" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="jenslody/packages_apps_Settings-1.git" remote="gitlab" revision="oreo.1" groups="pdk-fs" />
 
   <!-- Qcom Common -->
 <!--

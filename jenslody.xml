@@ -99,6 +99,7 @@
   <project path="device/samsung/j5nlte" name="jenslody/android_device_samsung_j5nlte.git" groups="device" remote="gitlab" revision="pie" />
   <project path="device/samsung/j5ltechn" name="jenslody/android_device_samsung_j5ltechn.git" groups="device" remote="gitlab" revision="pie" />
   <project path="device/samsung/j5lte" name="jenslody/android_device_samsung_j5lte.git" groups="device" remote="gitlab" revision="pie" />
+  <project path="device/samsung/j53gxx" name="jenslody/android_device_samsung_j53gxx.git" groups="device" remote="gitlab" revision="pie" />
   <project path="device/samsung/j5-common" name="jenslody/android_device_samsung_j5-common.git" groups="device" remote="gitlab" revision="lineage-16.0" />
 
 <!--
@@ -189,7 +190,7 @@
 -->
 <!-- -->
 <!-- -->
-  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-16.0" />
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-15.1" />
 <!--
   <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-8.1"/>
  -->

@@ -11,8 +11,7 @@
 
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
 
-  <remove-project name="platform/prebuilts/gradle-plugin" />
-  <remove-project name="platform/prebuilts/libs/libedit" />
+  <remove-project name="android_device_qcom_common" />
 
   <remove-project name="build" />
   <project path="build/make" name="jenslody/build.git" remote="gitlab" revision="pasta" >

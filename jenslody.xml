@@ -39,6 +39,10 @@
   <project path="device/samsung/j53gxx" name="jenslody/android_device_samsung_j53gxx.git" groups="device" remote="gitlab" revision="pie" />
   <project path="device/samsung/j5-common" name="jenslody/android_device_samsung_j5-common.git" groups="device" remote="gitlab" revision="lineage-16.0" />
 
+ <!-- (J510FN - j5xnlte) -->
+  <project path="device/samsung/j5x-common" name="Galaxy-MSM8916/android_device_samsung_j5x-common" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/j5xnlte" name="Galaxy-MSM8916/android_device_samsung_j5xnlte" groups="device" remote="Galaxy-MSM8916"/>
+
   <remove-project name="hardware_qcom_audio"/>
   <project path="hardware/qcom/audio-caf/msm8916" name="Galaxy-MSM8916/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-16.0-caf-8916" />
 

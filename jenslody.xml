@@ -37,5 +37,10 @@
 <!-- Vendor Trees For All Device Trees -->
   <project path="vendor/samsung" name="proprietary_vendor_samsung" groups="device" remote="myGitea" />
 
+<!-- use Lineages E-Mail-package to be usable with Exchange -->
+  <remove-project name="platform/packages/apps/Email" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="lineage" />
+<!-- build Exchange (I need it at work) -->
+  <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" groups="pdk-fs" remote="lineage" />
 </manifest>
 

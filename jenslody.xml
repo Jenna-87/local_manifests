@@ -5,6 +5,9 @@
            fetch="https://gitea.jenslody.de/jens"
            revision="ten" />
 
+<!-- No gapps at the moment -->
+  <remove-project name="DerpFest/vendor_gapps" />
+  <remove-project name="platform_vendor_google-customization" />
 
   <remove-project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" remote="lineage" revision="lineage-17.0-caf-msm8916" />
   <project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" remote="myGitea" />
